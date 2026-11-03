@@ -1,0 +1,12 @@
+{
+  "name": "apavin",
+  "description": "Apavin's plugin: the Apavin skills and connector.",
+  "owner": { "name": "Apavin", "url": "https://apavin.com" },
+  "plugins": [
+    {
+      "name": "apavin",
+      "source": "./",
+      "description": "Your business email, WhatsApp and LinkedIn in Claude, with background agents that run on a schedule."
+    }
+  ]
+}

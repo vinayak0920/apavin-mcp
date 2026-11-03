@@ -1,0 +1,29 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "apavin",
+  "version": "1.0.0",
+  "description": "Business email, WhatsApp and LinkedIn: answer customers in your voice, follow up, write posts, and run background agents. Every message waits for your approval.",
+  "author": { "name": "Apavin", "url": "https://apavin.com" },
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "Apavin",
+        "shortDescription": "Answer customers and post on LinkedIn from ChatGPT",
+        "longDescription": "Apavin connects your business email, WhatsApp Business number and LinkedIn profile to ChatGPT. Ask who is waiting on a reply and get answers drafted in your own voice, checked against your price list and policies. Follow up with buyers who went quiet, write LinkedIn posts researched from what changed in your field this week, and add a banner image. Set up background agents in Apavin and run them from scheduled tasks, so the work happens while you are away.\n\nNothing reaches a customer or goes public until you approve it in Apavin. Apavin keeps your mail synced, sends approved messages on time, respects WhatsApp's 24 hour window and LinkedIn's posting limits, and keeps an audit log of every action.",
+        "developerName": "Apavin",
+        "category": "Productivity",
+        "websiteURL": "https://apavin.com",
+        "supportURL": "https://apavin.com/contact",
+        "privacyPolicyURL": "https://apavin.com/privacy",
+        "termsOfServiceURL": "https://apavin.com/terms",
+        "defaultPrompt": [
+          "Who is waiting on a reply? Draft answers for the five oldest",
+          "Follow up with everyone who went quiet after our quote last week",
+          "Write a LinkedIn post about what changed in my industry this week"
+        ],
+        "logo": "./assets/logo.png",
+        "composerIcon": "./assets/logo.png"
+      }
+    }
+  }
+}
