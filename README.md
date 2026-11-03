@@ -10,11 +10,11 @@ This repository is the plugin: the Apavin skills and the connector. Apavin runs 
 ## Install in Claude
 
 1. Open **Customize**, then **Plugins**, then **Add**, then **Add marketplace**.
-2. Choose **Add from a repository**, enter `apavin/apavin-mcp`, and choose **Sync**.
+2. Choose **Add from a repository**, enter `vinayak0920/apavin-mcp`, and choose **Sync**.
 3. Open **Apavin** and choose **Add**.
 4. On the **Connectors** tab, choose **Connect**, sign in to Apavin and allow access.
 
-In Claude Code: `/plugin marketplace add apavin/apavin-mcp`, then `/plugin install apavin@apavin`.
+In Claude Code: `/plugin marketplace add vinayak0920/apavin-mcp`, then `/plugin install apavin@apavin`.
 
 ## Install in ChatGPT
 

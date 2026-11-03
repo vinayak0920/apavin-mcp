@@ -5,7 +5,7 @@
   "description": "Business email, WhatsApp and LinkedIn for AI agents: read, draft in your voice, follow up and post, with every message approved by a person.",
   "version": "1.0.0",
   "websiteUrl": "https://apavin.com/developers",
-  "repository": { "url": "https://github.com/apavin/apavin-mcp", "source": "github" },
-  "icons": [{ "src": "https://raw.githubusercontent.com/apavin/apavin-mcp/main/assets/logo.png", "mimeType": "image/png", "sizes": ["1024x1024"] }],
+  "repository": { "url": "https://github.com/vinayak0920/apavin-mcp", "source": "github" },
+  "icons": [{ "src": "https://raw.githubusercontent.com/vinayak0920/apavin-mcp/main/assets/logo.png", "mimeType": "image/png", "sizes": ["1024x1024"] }],
   "remotes": [{ "type": "streamable-http", "url": "https://mcp.apavin.com/mcp" }]
 }
